@@ -4,7 +4,7 @@
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.on = exports.TurtleCoindTypes = exports.LedgerErrorCode = exports.LedgerTransactionState = exports.LedgerError = exports.TransactionOutputs = exports.TransactionInputs = exports.Keys = exports.KeyPair = exports.KeyOutput = exports.KeyInput = exports.ICryptoNote = exports.WalletAPI = exports.TurtleCoind = exports.LegacyTurtleCoind = exports.Transaction = exports.ParentBlock = exports.MultisigMessage = exports.Multisig = exports.LevinPayloads = exports.LevinProtocol = exports.LevinPacket = exports.LedgerNote = exports.LedgerTransport = exports.LedgerDevice = exports.CryptoNote = exports.CryptoType = exports.Crypto = exports.BlockTemplate = exports.Block = exports.AddressPrefix = exports.Address = void 0;
-const turtlecoin_crypto_1 = require("kryptokrona-crypto");
+const turtlecoin_crypto_1 = require("mevacoin-crypto");
 /** @ignore */
 const Types = require("./Types");
 var Address_1 = require("./Address");
@@ -15,7 +15,7 @@ var Block_1 = require("./Block");
 Object.defineProperty(exports, "Block", { enumerable: true, get: function () { return Block_1.Block; } });
 var BlockTemplate_1 = require("./BlockTemplate");
 Object.defineProperty(exports, "BlockTemplate", { enumerable: true, get: function () { return BlockTemplate_1.BlockTemplate; } });
-var turtlecoin_crypto_2 = require("kryptokrona-crypto");
+var turtlecoin_crypto_2 = require("mevacoin-crypto");
 Object.defineProperty(exports, "Crypto", { enumerable: true, get: function () { return turtlecoin_crypto_2.Crypto; } });
 Object.defineProperty(exports, "CryptoType", { enumerable: true, get: function () { return turtlecoin_crypto_2.CryptoType; } });
 var CryptoNote_1 = require("./CryptoNote");

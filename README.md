@@ -20,7 +20,7 @@ If you experience any issues with this library, the best way to address such sit
 ## Installation
 
 ```bash
-npm install kryptokrona-utils
+npm install mevacoin-utils
 ```
 
 ## Initialization
@@ -36,14 +36,14 @@ import {
     CryptoNote, 
     LevinPacket, 
     Transaction
-} from 'kryptokrona-utils'
+} from 'mevacoin-utils'
 const coinUtils = new CryptoNote()
 ```
 
 ### Javascript
 
 ```javascript
-const KryptokronaUtils = require('kryptokrona-utils')
+const KryptokronaUtils = require('mevacoin-utils')
 const coinUtils = new KryptokronaUtils.CryptoNote()
 ```
 

@@ -1994,7 +1994,7 @@ describe('TurtleCoind < 1.0.0', function () {
 
     let is_explorer = false;
 
-    const server = new LegacyTurtleCoind('gota.kryptokrona.se');
+    const server = new LegacyTurtleCoind('gota.mevacoin.se');
 
     before('check()', async function () {
         try {

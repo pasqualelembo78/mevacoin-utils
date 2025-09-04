@@ -7,7 +7,7 @@ import { AddressPrefix } from '../AddressPrefix';
 import { Address } from '../Address';
 import { Transaction } from '../Transaction';
 import { ICoinConfig } from '../Config';
-import { ICryptoConfig } from 'kryptokrona-crypto';
+import { ICryptoConfig } from 'mevacoin-crypto';
 import { EventEmitter } from 'events';
 
 export namespace CryptoNoteInterfaces {
