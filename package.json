@@ -1,6 +1,6 @@
 {
   "name": "mevacoin-utils",
-  "version": "2.0",
+  "version": "2.0.0",
   "description": "A Typescript/CommonJS collection of utilities useful for Kryptokrona developers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -44,7 +44,7 @@
     "aes-js": "^3.1.2",
     "big-integer": "^1.6.48",
     "get-random-values": "^1.2.2",
-    "mevacoin-crypto": "2.0",
+    "mevacoin-crypto": "2.0.0",
     "node-fetch": "^2.6.1",
     "numeral": "^2.0.6",
     "package-lock.json": "^1.0.0",
